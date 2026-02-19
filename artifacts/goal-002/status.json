@@ -1,0 +1,46 @@
+{
+  "goal": {
+    "id": "goal-002",
+    "objective": "Deliver persistent autonomous goal runtime with checkpoints",
+    "deadline": "2026-02-20T09:52",
+    "success_criteria": [
+      "state machine",
+      "artifact persistence",
+      "checkpoint schedule"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "collect docs and behavior model",
+      "requires": [],
+      "state": "DONE",
+      "note": "completed",
+      "attempts": 1
+    },
+    {
+      "id": "T2",
+      "title": "draft architecture proposal",
+      "requires": [],
+      "state": "DONE",
+      "note": "completed",
+      "attempts": 1
+    },
+    {
+      "id": "T3",
+      "title": "publish GitHub release notes",
+      "requires": [
+        "github:push"
+      ],
+      "state": "BLOCKED",
+      "note": "approval not resolved after 3 retries",
+      "attempts": 3
+    }
+  ],
+  "checkpoints": {
+    "T-120": "2026-02-20T07:52",
+    "T-60": "2026-02-20T08:52",
+    "T-15": "2026-02-20T09:37",
+    "T": "2026-02-20T09:52"
+  }
+}

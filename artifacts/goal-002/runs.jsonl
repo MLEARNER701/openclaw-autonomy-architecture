@@ -1,0 +1,13 @@
+{"ts": "2026-02-20T03:52:06", "task": "T1", "state": "READY", "note": "ready", "attempts": 0}
+{"ts": "2026-02-20T03:52:06", "task": "T1", "state": "RUNNING", "note": "started", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T1", "state": "VERIFYING", "note": "verifying outputs", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T1", "state": "DONE", "note": "completed", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T2", "state": "READY", "note": "ready", "attempts": 0}
+{"ts": "2026-02-20T03:52:06", "task": "T2", "state": "RUNNING", "note": "started", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T2", "state": "VERIFYING", "note": "verifying outputs", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T2", "state": "DONE", "note": "completed", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T3", "state": "READY", "note": "ready", "attempts": 0}
+{"ts": "2026-02-20T03:52:06", "task": "T3", "state": "NEEDS_APPROVAL", "note": "Missing permissions: github:push", "attempts": 1}
+{"ts": "2026-02-20T03:52:06", "task": "T3", "state": "NEEDS_APPROVAL", "note": "Missing permissions: github:push", "attempts": 2}
+{"ts": "2026-02-20T03:52:06", "task": "T3", "state": "NEEDS_APPROVAL", "note": "Missing permissions: github:push", "attempts": 3}
+{"ts": "2026-02-20T03:52:06", "task": "T3", "state": "BLOCKED", "note": "approval not resolved after 3 retries", "attempts": 3}
